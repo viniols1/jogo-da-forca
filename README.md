@@ -26,7 +26,7 @@ Este projeto foi construído do zero, sem o uso de bibliotecas ou frameworks ext
 
 ## ✍️ Autor
 
-Vinicius Oliveira - Estudant de Análise e Desenvolvimento de Sistemas
+Vinicius Oliveira - Estudante de Análise e Desenvolvimento de Sistemas
 
 * **LinkedIn:** www.linkedin.com/in/viniciusoliveira1s
 
