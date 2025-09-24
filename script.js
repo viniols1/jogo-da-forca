@@ -90,9 +90,11 @@ function verificarChute() {
 function verificarFimDeJogo() {
     if (letrasAdivinhadas.join("") === palavraSecretaObj.palavra) {
         message.textContent = `Parabéns! Você venceu! A palavra era: ${palavraSecretaObj.palavra}`;
+        message.classList.remove("lost-message");
         desabilitarControles();
     } else if (tentativas === 0) {
         message.textContent = `Você perdeu! A palavra era: ${palavraSecretaObj.palavra}`;
+        message.classList.add("lost-message");
         desabilitarControles();
     }
 }
@@ -124,5 +126,6 @@ function addHoverEffect(element) {
 
 addHoverEffect(guessButton);
 addHoverEffect(restartButton);
+
 
 document.addEventListener("DOMContentLoaded", iniciarJogo);
